@@ -7,5 +7,9 @@ namespace ApiDocker.Controllers
     [ApiController]
     public class DockerController : ControllerBase
     {
+        public IActionResult Index()
+        {
+            return Ok("hellow world");
+        }
     }
 }
